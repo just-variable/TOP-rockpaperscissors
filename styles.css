@@ -1,0 +1,15 @@
+.container {
+    max-width: 20%;
+    background-color: #BBB;
+    border-radius: 7px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container * {
+    border: 1px solid black;
+    flex-grow: 1;
+    text-align: center;
+}
